@@ -1,0 +1,52 @@
+<mxfile host="65bd71144e">
+    <diagram id="u4u6DCH99EoLP2tT00rh" name="Page-1">
+        <mxGraphModel dx="655" dy="1715" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="5" value="/home/admin/&lt;project&gt;" style="swimlane;" vertex="1" parent="1">
+                    <mxGeometry x="30" y="-700" width="200" height="250" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="" style="group" vertex="1" connectable="0" parent="5">
+                    <mxGeometry x="40" y="30" width="160" height="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value=" .neptune/" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=20;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="24">
+                    <mxGeometry x="50" y="10" width="110" height="112" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="Code &amp; Scripts" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="12">
+                    <mxGeometry y="20" width="110" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="logs" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="12">
+                    <mxGeometry y="46" width="110" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="&lt;span lang=&quot;EN-US&quot; style=&quot;font-size: 11.0pt ; font-family: &amp;#34;calibri&amp;#34; , sans-serif&quot;&gt;Sqlite3&lt;/span&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="12">
+                    <mxGeometry y="72" width="110" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="&lt;span lang=&quot;EN-US&quot; style=&quot;font-size: 11.0pt ; font-family: &amp;#34;calibri&amp;#34; , sans-serif&quot;&gt;Optuna&lt;/span&gt;" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;size=10;" vertex="1" parent="5">
+                    <mxGeometry x="110" y="210" width="80" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" value="" style="endArrow=classic;startArrow=classic;html=1;fontColor=#CC0000;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="5" source="7">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="100" y="370" as="sourcePoint"/>
+                        <mxPoint x="147" y="151" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="6" value="Neptune AI Cloud" style="swimlane;" vertex="1" parent="1">
+                    <mxGeometry x="359" y="-660" width="131" height="101" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="&lt;span lang=&quot;EN-US&quot; style=&quot;font-size: 11.0pt ; font-family: &amp;#34;calibri&amp;#34; , sans-serif&quot;&gt;&lt;font color=&quot;#3399ff&quot;&gt;asynchronous procedure&lt;/font&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="260" y="-670" width="90" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" value="&lt;span style=&quot;color: rgb(204, 0, 0); font-family: calibri, sans-serif; font-size: 14.6667px; font-style: normal; font-weight: 400; letter-spacing: normal; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(42, 42, 42); display: inline; float: none;&quot;&gt;disk I/O error&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;fontColor=#CC0000;align=center;verticalAlign=middle;" vertex="1" parent="1">
+                    <mxGeometry x="140" y="-520" width="90" height="10" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" value="" style="endArrow=classic;html=1;fontColor=#CC0000;exitX=1.019;exitY=0.079;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.099;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="12" target="6">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="310" y="-470" as="sourcePoint"/>
+                        <mxPoint x="360" y="-640" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
