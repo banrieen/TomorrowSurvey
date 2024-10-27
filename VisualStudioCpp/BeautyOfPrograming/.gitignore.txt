@@ -1,9 +1,0 @@
-.vs
-Debug
-Release
-Packages
-Generated Files
-
-*.dll
-*.winmd
-*.user
