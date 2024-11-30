@@ -1,6 +1,8 @@
 慕课学习 和 编程核心(ProgrammingCore)
 ===================================
 
+[![Join the chat at https://gitter.im/banrieen/questions](https://badges.gitter.im/banrieen/questions.svg)](https://gitter.im/banrieen/questions?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 1. 算法训练题，当前以 Python/C++ 为主。
 2. Mook，参考书籍的源码分别建立了工程目录。
 3. 按组件功能分类的对比分析,范例在根目录下。
