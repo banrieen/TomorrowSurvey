@@ -8,10 +8,3 @@
 # Version：0.1
 """
 
-import os 
-
-def hellow_world():
-    print("hellow world !")
-
-if __name__== "__main__":
-    hellow_world()
