@@ -1,7 +1,0 @@
-**/_build
-**/_static
-**/_templates
-**/build
-build/
-.vs
-.vscode
